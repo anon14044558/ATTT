@@ -1,0 +1,7 @@
+Giải thuật: 
+
+1. **Khởi tạo** - Thuật toán bắt đầu với việc khởi tạo một số ngẫu nhiên dựa trên khóa mã hóa (key). Công đoạn này thường sử dụng một thuật toán khởi tạo riêng biệt, chẳng hạn như Mersenne Twister (MT).
+2. **Sinh số ngẫu nhiên** - Sau khi khởi tạo, thuật toán sử dụng MT để sinh ra một chuỗi số ngẫu nhiên. Chuỗi này sẽ được sử dụng để mã hóa dữ liệu đầu vào.
+3. **Xáo trộn dữ liệu** - Dữ liệu đầu vào được chia thành các khối nhỏ và xáo trộn theo một thứ tự xác định bằng cách sử dụng số ngẫu nhiên được sinh ra ở bước trên.
+4. **Mã hóa từng khối** - Mỗi khối dữ liệu sau khi được xáo trộn sẽ được mã hóa bằng cách áp dụng một phép toán biến đổi dựa trên các số ngẫu nhiên từ bước 2. Đây có thể là một phép XOR hoặc một phép biến đổi phức tạp hơn.
+5. **Ghép các khối lại** - Các khối dữ liệu sau khi mã hóa được ghép lại theo thứ tự ban đầu, tạo thành dữ liệu mã hóa hoàn chỉnh.

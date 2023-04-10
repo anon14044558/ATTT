@@ -7,6 +7,7 @@ usage:
 
 -e           Encryption.
 -d           Decryption.
+
              If omitted encryption is assumed. But encryption
              and decryption are just the same.
 -i ifile     Input file. If omitted, standard input is used.

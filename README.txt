@@ -1,13 +1,6 @@
 CryptMT version 3
 C++ source code of a stream cipher CryptMT version 3.
 
-The dynamic link library of CryptMT version 3 for Windows is included
-in this windows version archive.
-
-see LICENSE.txt
-
-This archive also include a source file of cryptfile, which is
-an application program.
 usage:
 ./cryptfile [-e|-d] [-i ifile] [-o ofile] [-k key] [-f kfile] [-s size] [-v]
 
